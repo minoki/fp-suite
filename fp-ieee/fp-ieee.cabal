@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 62a346063dd10a9b7bb7de4d7624dd805ceef339ead48206730d6c47e94e17d2
+-- hash: 326575b2fddce59b701bb74ab66f1d92c0ac23b7db4c2f9535733af78f756b4e
 
 name:           fp-ieee
 version:        0.1.0.1
@@ -26,6 +26,7 @@ extra-source-files:
 source-repository head
   type: git
   location: https://github.com/minoki/haskell-floating-point
+  subdir: fp-ieee
 
 flag f16c
   description: Use F16C instructions on x86

@@ -4,7 +4,7 @@ cabal-version: 1.24
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c52684ece684d2a3e1a2bde6e2919d961a59bd69724c32a8e7ab1ac0b9230685
+-- hash: 8539d57f6af3df4b0804c4ed9a0ee7a5543b6bc37e67a69d7c7a8430bbe78035
 
 name:           rounded-hw
 version:        0.2.0
@@ -30,6 +30,7 @@ extra-source-files:
 source-repository head
   type: git
   location: https://github.com/minoki/haskell-floating-point
+  subdir: rounded-hw
 
 custom-setup
   setup-depends:
